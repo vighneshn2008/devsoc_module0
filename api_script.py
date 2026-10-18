@@ -4,7 +4,6 @@ import requests
 
 # Configuration Constants
 # TODO: Replace with your actual OpenRouter API Key or set it as an environment variable
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "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")
 
 # Switched to Gemma 2 27B model slug on OpenRouter
 MODEL_NAME = "google/gemma-2-27b-it"
